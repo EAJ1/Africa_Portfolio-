@@ -127,8 +127,8 @@ creative-cv-portfolio/
 ├── public/
 │   ├── Portfolio.jpg        # Profile image
 │   ├── AI-Fraud.mov        # Project demo video
-│   ├── CVantage.mov        # Project demo video
-│   ├── EchoBridge.mov      # Project demo video
+│ ├── CVantage.mp4 # Compressed project demo video
+│ ├── EchoBridge.mp4 # Compressed project demo video
 │   └── manifest.json       # Web app manifest
 ├── src/
 │   ├── assets/             # Static assets
