@@ -3,6 +3,7 @@ import { motion, useMotionValue, useTransform, useSpring } from 'framer-motion';
 import { ChevronDown, ExternalLink, Mail, Linkedin, Github } from 'lucide-react';
 import { MorphingBlob } from './MorphingBlob';
 import { TypewriterText } from './TypewriterText';
+import portfolioImage from '../Portfolio.jpg';
 
 interface HeroSectionProps {
   isDark: boolean;
@@ -292,7 +293,7 @@ export function HeroSection({ isDark }: HeroSectionProps) {
                 }}
               >
                 <motion.img
-                  src="./Portfolio.jpg"
+                  src={portfolioImage}
                   alt="Africa Bulumko Jarana"
                   className={`w-full h-full object-cover transition-all duration-500 ${
                     isDark

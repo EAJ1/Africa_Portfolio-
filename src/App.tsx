@@ -12,6 +12,7 @@ import { TechnologiesSection } from './components/TechnologiesSection';
 import { ExperienceSection } from './components/ExperienceSection';
 import { EducationSection } from './components/EducationSection';
 import { ContactSection } from './components/ContactSection';
+import portfolioImage from './Portfolio.jpg';
 
 export default function App() {
   const [isDark, setIsDark] = useState(true);
@@ -53,7 +54,7 @@ export default function App() {
           />
 
           <motion.img
-           src="./Portfolio.jpg"
+           src={portfolioImage}
             alt="Africa Bulumko Jarana"
             className="w-32 h-32 mx-auto rounded-full object-cover shadow-lg border-4 border-purple-500/50"
             initial={{ opacity: 0, scale: 0.8 }}
