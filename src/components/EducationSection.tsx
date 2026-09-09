@@ -48,20 +48,20 @@ export function EducationSection({ isDark }: EducationSectionProps) {
 
   const certifications = [
     { name: "AWS Cloud Practitioner Foundation", date: "Aug 2025", credly: "https://www.credly.com/users/africa-bulumko-jarana" },
-    { name: "iOS Development", date: "Aug 2025", pdf: "/iOS Development.pdf" },
-    { name: "Front-End Software Engineering Job Simulation", date: "Aug 2025", pdf: "/Front-End Software Engineering Job Simulation.pdf" },
-    { name: "Customer Service Job Simulation", date: "Aug 2025", pdf: "/Customer Service Job Simulation.pdf" },
-    { name: "Service Desk Job Simulation", date: "Aug 2025", pdf: "/Service Desk Job Simulation.pdf" },
-    { name: "Technology Engineering Job Simulation", date: "Aug 2025", pdf: "/Technology Engineering Job Simulation.pdf" },
-    { name: "Microsoft Azure Fundamentals: AZ-900", date: "Aug 2025", pdf: "/Microsoft Azure Fundamentals AZ-900.pdf" },
-    { name: "Azure AI Fundamentals: AI-900", date: "Aug 2025", pdf: "/Azure AI Fundamentals  AI-900.pdf" },
-    { name: "Advanced Software Engineering Job Simulation", date: "Aug 2025", pdf: "/Advanced Software Engineering Job Simulation.pdf" },
-    { name: "ASP.NET Core Foundations", date: "Aug 2025", pdf: "/ASP.NET Core Foundations.pdf" },
-    { name: "Unsupervised Learning, Recommenders, Reinforcement Learning", date: "Oct 2025", pdf: "/Unsupervised Learning, Recommenders, Reinforcement Learning.pdf" },
-    { name: "AI For Everyone", date: "Aug 2025", pdf: "/AI For Everyone.pdf" },
-    { name: "AI Foundations: Prompt Engineering with ChatGPT", date: "Aug 2025", pdf: "/AI Foundations- Prompt Engineering with ChatGPT.pdf" },
-    { name: "Supervised Machine Learning: Regression and Classification", date: "Oct 2025", pdf: "/Supervised Machine Learning- Regression and Classification.pdf" },
-    { name: "Solving Problems with Creative and Critical Thinking", date: "Oct 2025", pdf: "/Solving Problems with Creative and Critical Thinking.pdf" }
+    { name: "iOS Development", date: "Aug 2025", pdf: "./iOS Development.pdf" },
+    { name: "Front-End Software Engineering Job Simulation", date: "Aug 2025", pdf: "./Front-End Software Engineering Job Simulation.pdf" },
+    { name: "Customer Service Job Simulation", date: "Aug 2025", pdf: "./Customer Service Job Simulation.pdf" },
+    { name: "Service Desk Job Simulation", date: "Aug 2025", pdf: "./Service Desk Job Simulation.pdf" },
+    { name: "Technology Engineering Job Simulation", date: "Aug 2025", pdf: "./Technology Engineering Job Simulation.pdf" },
+    { name: "Microsoft Azure Fundamentals: AZ-900", date: "Aug 2025", pdf: "./Microsoft Azure Fundamentals AZ-900.pdf" },
+    { name: "Azure AI Fundamentals: AI-900", date: "Aug 2025", pdf: "./Azure AI Fundamentals  AI-900.pdf" },
+    { name: "Advanced Software Engineering Job Simulation", date: "Aug 2025", pdf: "./Advanced Software Engineering Job Simulation.pdf" },
+    { name: "ASP.NET Core Foundations", date: "Aug 2025", pdf: "./ASP.NET Core Foundations.pdf" },
+    { name: "Unsupervised Learning, Recommenders, Reinforcement Learning", date: "Oct 2025", pdf: "./Unsupervised Learning, Recommenders, Reinforcement Learning.pdf" },
+    { name: "AI For Everyone", date: "Aug 2025", pdf: "./AI For Everyone.pdf" },
+    { name: "AI Foundations: Prompt Engineering with ChatGPT", date: "Aug 2025", pdf: "./AI Foundations- Prompt Engineering with ChatGPT.pdf" },
+    { name: "Supervised Machine Learning: Regression and Classification", date: "Oct 2025", pdf: "./Supervised Machine Learning- Regression and Classification.pdf" },
+    { name: "Solving Problems with Creative and Critical Thinking", date: "Oct 2025", pdf: "./Solving Problems with Creative and Critical Thinking.pdf" }
   ];
 
   return (

@@ -53,7 +53,7 @@ export default function App() {
           />
 
           <motion.img
-           src="/Portfolio.jpg"
+           src="./Portfolio.jpg"
             alt="Africa Bulumko Jarana"
             className="w-32 h-32 mx-auto rounded-full object-cover shadow-lg border-4 border-purple-500/50"
             initial={{ opacity: 0, scale: 0.8 }}

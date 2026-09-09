@@ -165,7 +165,7 @@ export function HeroSection({ isDark }: HeroSectionProps) {
               transition={{ delay: 1.5 }}
             >
               <motion.a
-                href="/CV Africa Bulumko Jarana.pdf"
+                href="./CV Africa Bulumko Jarana.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 rounded-full transition-all duration-300 flex items-center gap-2"
@@ -292,7 +292,7 @@ export function HeroSection({ isDark }: HeroSectionProps) {
                 }}
               >
                 <motion.img
-                  src="/Portfolio.jpg"
+                  src="./Portfolio.jpg"
                   alt="Africa Bulumko Jarana"
                   className={`w-full h-full object-cover transition-all duration-500 ${
                     isDark

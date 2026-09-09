@@ -74,5 +74,5 @@ import path from 'path';
       host: '0.0.0.0',
       open: true,
     },
-  base: '/',
+  base: './',
   });

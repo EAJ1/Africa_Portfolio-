@@ -44,7 +44,7 @@ export function ProjectsSection({ isDark }: ProjectsSectionProps) {
       githubUrl: 'https://github.com/EAJ1/Cvantage',
       image: 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZXN1bWUlMjBidWlsZGVyJTIwYXBwbGljYXRpb258ZW58MXx8fHwxNzYwNjE2Njg0fDA&ixlib=rb-4.1.0&q=80&w=1080',
       isVideo: true,
-      videoSrc: '/CVantage.mp4',
+      videoSrc: './CVantage.mp4',
       highlights: [
         'Smart AI suggestions for summaries, bullet points, and skills',
         'Modern, Classic, and Creative templates with stars & gradient themes',
@@ -68,7 +68,7 @@ export function ProjectsSection({ isDark }: ProjectsSectionProps) {
       githubUrl: 'https://github.com/EAJ1/Enhanceuiwithdarkmode',
       image: 'https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhY2Nlc3NpYmlsaXR5JTIwYXNzaXN0YW50JTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NjA2MTY2ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080',
       isVideo: true,
-      videoSrc: '/EchoBridge.mp4',
+      videoSrc: './EchoBridge.mp4',
       highlights: [
         'Real-time speech-to-text captioning and note generation',
         'Text simplification using LLM for better readability',
@@ -92,7 +92,7 @@ export function ProjectsSection({ isDark }: ProjectsSectionProps) {
       githubUrl: 'https://github.com/EAJ1/Aifrauddetectionprototype',
       image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmcmF1ZCUyMGRldGVjdGlvbiUyMGZpbmFuY2UlMjB0ZWNobm9sb2d5fGVufDF8fHx8MTc2MDYxNjY4NXww&ixlib=rb-4.1.0&q=80&w=1080',
       isVideo: true,
-      videoSrc: '/AI-Fraud.mov',
+      videoSrc: './AI-Fraud.mov',
       highlights: [
         'Real-time transaction analysis using AI classification models',
         'Output flags: ✅ Safe / ⚠️ Suspicious with detailed reasons',
