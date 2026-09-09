@@ -158,6 +158,24 @@
     padding: 0;
   }
 
+  html,
+  body,
+  #root {
+    width: 100%;
+    min-width: 0;
+    overflow-x: hidden;
+  }
+
+  @media (max-width: 640px) {
+    .container.px-6 {
+      padding-inline: 1rem;
+    }
+
+    section {
+      scroll-margin-top: 1rem;
+    }
+  }
+
   ::file-selector-button {
     box-sizing: border-box;
     border: 0 solid;

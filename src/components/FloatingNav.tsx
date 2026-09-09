@@ -71,7 +71,7 @@ export function FloatingNav({ isDark }: FloatingNavProps) {
 
   return (
     <motion.div
-      className="fixed left-2 sm:left-4 lg:left-6 top-1/2 -translate-y-1/2"
+      className="fixed left-2 sm:left-4 lg:left-6 top-1/2 -translate-y-1/2 max-sm:left-1/2 max-sm:top-auto max-sm:bottom-3 max-sm:-translate-x-1/2 max-sm:translate-y-0"
       style={{ zIndex: 99999 }}
       initial={{ opacity: 0, x: -100, scale: 0.8 }}
       animate={{ opacity: 1, x: 0, scale: 1 }}
@@ -83,7 +83,7 @@ export function FloatingNav({ isDark }: FloatingNavProps) {
       }}
     >
       <motion.div
-        className="relative flex flex-col gap-1 sm:gap-1.5 p-1.5 sm:p-2 rounded-3xl backdrop-blur-xl border-2 shadow-2xl overflow-visible"
+        className="relative flex flex-col max-sm:flex-row gap-1 sm:gap-1.5 p-1.5 sm:p-2 rounded-3xl backdrop-blur-xl border-2 shadow-2xl overflow-visible"
         style={{
           background: isDark
             ? 'linear-gradient(135deg, rgba(30, 30, 50, 0.95), rgba(20, 20, 40, 0.95))'

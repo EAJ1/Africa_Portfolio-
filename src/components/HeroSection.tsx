@@ -118,19 +118,19 @@ export function HeroSection({ isDark }: HeroSectionProps) {
 
             {/* Contact Info */}
             <motion.div
-              className="flex flex-row flex-wrap gap-4"
+              className="flex flex-row flex-wrap gap-3 sm:gap-4"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.3 }}
             >
               <motion.a
                 href="mailto:bulumkojarana@gmail.com"
-                className="flex items-center gap-2 px-4 py-2 rounded-full backdrop-blur-sm border border-white/20 hover:border-white/40 transition-all"
+                className="flex min-w-0 max-w-full items-center gap-2 px-3 sm:px-4 py-2 rounded-full backdrop-blur-sm border border-white/20 hover:border-white/40 transition-all"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
               >
                 <Mail className="w-4 h-4" />
-                bulumkojarana@gmail.com
+                <span className="break-all">bulumkojarana@gmail.com</span>
               </motion.a>
 
               <motion.a
@@ -160,7 +160,7 @@ export function HeroSection({ isDark }: HeroSectionProps) {
 
             {/* Action Buttons */}
             <motion.div
-              className="flex flex-row gap-4"
+              className="flex flex-col sm:flex-row gap-3 sm:gap-4"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.5 }}
@@ -169,7 +169,7 @@ export function HeroSection({ isDark }: HeroSectionProps) {
                 href="./CV Africa Bulumko Jarana.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 rounded-full transition-all duration-300 flex items-center gap-2"
+                className="w-full sm:w-auto justify-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 rounded-full transition-all duration-300 flex items-center gap-2"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -178,7 +178,7 @@ export function HeroSection({ isDark }: HeroSectionProps) {
               </motion.a>
               
               <motion.button
-                className="px-8 py-4 border border-purple-500/50 hover:border-purple-500 rounded-full transition-all duration-300 backdrop-blur-sm"
+                className="w-full sm:w-auto justify-center px-6 sm:px-8 py-3 sm:py-4 border border-purple-500/50 hover:border-purple-500 rounded-full transition-all duration-300 backdrop-blur-sm"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => scrollToSection('about')}
