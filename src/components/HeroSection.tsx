@@ -161,7 +161,7 @@ export function HeroSection({ isDark }: HeroSectionProps) {
 
             {/* Action Buttons */}
             <motion.div
-              className="flex flex-col sm:flex-row gap-3 sm:gap-4"
+              className="flex flex-row gap-3 sm:gap-4"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.5 }}
