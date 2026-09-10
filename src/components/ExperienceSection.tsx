@@ -9,10 +9,25 @@ interface ExperienceSectionProps {
 export function ExperienceSection({ isDark }: ExperienceSectionProps) {
   const experiences = [
     {
+      title: "Test Analyst",
+      company: "First National Bank",
+      location: "Johannesburg, South Africa",
+      period: "Nov 2025 - Present",
+      type: "Full-time",
+      description: "Conduct manual and automated testing for the FNB Sign Language mobile\n" +
+          "application, used in FNB branches to support communication with Deaf\n" +
+          "customers",
+      responsibilities: [
+        "Perform software testing and quality assurance, including functional testing, defect identification, test execution, and supporting the delivery of reliable applications. Also contribute to FNB’s sign language technology initiatives through application testing and data annotation"
+      ],
+      icon: Brain,
+      color: "from-cyan-500 to-blue-600"
+    },
+    {
       title: "IT Support and Full Stack Developer",
       company: "Capaciti",
       location: "Johannesburg, South Africa",
-      period: "Aug 2025 - Present",
+      period: "Aug 2025 - Nov 2025",
       type: "Learnership",
       description: "Currently enrolled in a structured IT learnership program with a focus on Artificial Intelligence (AI), IT Support, and Full Stack Development. The program equips me with cutting-edge skills in modern technology domains.",
       responsibilities: [
