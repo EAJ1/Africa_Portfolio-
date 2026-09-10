@@ -41,8 +41,8 @@ describe('App', () => {
     expect(screen.getByText('About Me')).toBeInTheDocument();
     expect(screen.getByText('Project Portfolio')).toBeInTheDocument();
     expect(screen.getByText('Technologies I Work With')).toBeInTheDocument();
-    expect(screen.getByText('Experience')).toBeInTheDocument();
-    expect(screen.getByText('Education')).toBeInTheDocument();
+    expect(screen.getAllByText('Experience').length).toBeGreaterThan(0);
+    expect(screen.getAllByText('Education').length).toBeGreaterThan(0);
     expect(screen.getByText('Get In Touch')).toBeInTheDocument();
   });
 
@@ -59,4 +59,3 @@ describe('App', () => {
     expect(screen.getByText('Excellence')).toBeInTheDocument();
   });
 });
-

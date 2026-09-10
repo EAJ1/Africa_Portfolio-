@@ -18,14 +18,14 @@ describe('ExperienceSection', () => {
   it('renders company names', () => {
     render(<ExperienceSection isDark={true} />);
     expect(screen.getByText('Capaciti')).toBeInTheDocument();
-    expect(screen.getByText('First National Bank')).toBeInTheDocument();
+    expect(screen.getAllByText('First National Bank')).toHaveLength(2);
     expect(screen.getByText('Selo Events Business')).toBeInTheDocument();
   });
 
   it('renders employment types', () => {
     render(<ExperienceSection isDark={true} />);
     expect(screen.getByText('Learnership')).toBeInTheDocument();
-    expect(screen.getByText('Full-time')).toBeInTheDocument();
+    expect(screen.getAllByText('Full-time')).toHaveLength(2);
     expect(screen.getByText('Volunteer')).toBeInTheDocument();
   });
 
@@ -39,4 +39,3 @@ describe('ExperienceSection', () => {
     expect(screen.getByText('Experience')).toBeInTheDocument();
   });
 });
-

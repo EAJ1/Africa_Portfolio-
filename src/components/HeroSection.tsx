@@ -3,13 +3,14 @@ import { motion, useMotionValue, useTransform, useSpring } from 'framer-motion';
 import { ChevronDown, ExternalLink, Mail, Linkedin, Github } from 'lucide-react';
 import { MorphingBlob } from './MorphingBlob';
 import { TypewriterText } from './TypewriterText';
-import portfolioImage from '../Portfolio.jpg';
 
 interface HeroSectionProps {
   isDark: boolean;
 }
 
 export function HeroSection({ isDark }: HeroSectionProps) {
+
+  const portfolioImage = `${import.meta.env.BASE_URL}Portfolio.jpg`;
 
   const scrollToSection = (sectionId: string) => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
