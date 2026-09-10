@@ -170,16 +170,16 @@ export function HeroSection({ isDark }: HeroSectionProps) {
                 href="./CV Africa Bulumko Jarana.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex w-fit items-center justify-center gap-2 rounded-full bg-gradient-to-r from-purple-600 to-blue-600 px-4 py-2.5 text-sm font-normal transition-all duration-300 hover:from-purple-700 hover:to-blue-700"
+                className="flex items-center gap-2 rounded-full bg-gradient-to-r from-purple-600 to-blue-600 px-8 py-4 transition-all duration-300 hover:from-purple-700 hover:to-blue-700"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <ExternalLink className="h-4 w-4" />
+                <ExternalLink className="h-5 w-5" />
                 View CV
               </motion.a>
               
               <motion.button
-                className="inline-flex w-fit items-center justify-center rounded-full border border-purple-500/50 px-4 py-2.5 text-sm font-normal backdrop-blur-sm transition-all duration-300 hover:border-purple-500"
+                className="rounded-full border border-purple-500/50 px-8 py-4 backdrop-blur-sm transition-all duration-300 hover:border-purple-500"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => scrollToSection('about')}
